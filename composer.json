@@ -1,0 +1,18 @@
+{
+    "name": "portphp/benchmark",
+    "description": "Benchmarking middleware and traditional step aggregator",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/portphp/steps.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "portphp/steps": "dev-master",
+        "devster/ubench": "^1.2",
+        "th3n3rd/cartesian-product": "^0.3"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
